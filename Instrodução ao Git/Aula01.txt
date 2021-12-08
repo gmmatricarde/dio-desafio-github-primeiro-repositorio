@@ -1,0 +1,69 @@
+Guilherme@DESKTOP-DOIBOUP MINGW64 ~/Desktop/Dio
+$ git clone https://github.com/gmmatricarde/dio-desafio-github-primeiro-repositorio.git
+Cloning into 'dio-desafio-github-primeiro-repositorio'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (6/6), done.
+
+Guilherme@DESKTOP-DOIBOUP MINGW64 ~/Desktop/Dio
+$ cd dio-desafio-github-primeiro-repositorio/
+
+Guilherme@DESKTOP-DOIBOUP MINGW64 ~/Desktop/Dio/dio-desafio-github-primeiro-repositorio (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+Guilherme@DESKTOP-DOIBOUP MINGW64 ~/Desktop/Dio/dio-desafio-github-primeiro-repositorio (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        "Instrodu\303\247\303\243o ao Git/"
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Guilherme@DESKTOP-DOIBOUP MINGW64 ~/Desktop/Dio/dio-desafio-github-primeiro-repositorio (main)
+$ git add .
+
+Guilherme@DESKTOP-DOIBOUP MINGW64 ~/Desktop/Dio/dio-desafio-github-primeiro-repositorio (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   "Instrodu\303\247\303\243o ao Git/Aula01.txt"
+
+
+Guilherme@DESKTOP-DOIBOUP MINGW64 ~/Desktop/Dio/dio-desafio-github-primeiro-repositorio (main)
+$ git commit -m "Inclusão das anotações do curso da DIO"
+[main 825a7f7] Inclusão das anotações do curso da DIO
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 "Instrodu\303\247\303\243o ao Git/Aula01.txt"
+
+Guilherme@DESKTOP-DOIBOUP MINGW64 ~/Desktop/Dio/dio-desafio-github-primeiro-repositorio (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+Guilherme@DESKTOP-DOIBOUP MINGW64 ~/Desktop/Dio/dio-desafio-github-primeiro-repositorio (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 372 bytes | 372.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/gmmatricarde/dio-desafio-github-primeiro-repositorio.git
+   4d09a32..825a7f7  main -> main
+
+Guilherme@DESKTOP-DOIBOUP MINGW64 ~/Desktop/Dio/dio-desafio-github-primeiro-repositorio (main)
